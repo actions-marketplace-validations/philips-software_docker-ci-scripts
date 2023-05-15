@@ -1,4 +1,4 @@
-FROM docker:23.0.1-git
+FROM docker:23.0.6-git
 
 RUN apk update && apk add \
       bash \
